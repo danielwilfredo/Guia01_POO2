@@ -33,10 +33,10 @@
         <div class="span3 well">
             <center>
                 <a href="#" id="testBton" data-ctxt="${pageContext.request.contextPath}"
-                   data-repo="testRepo" data-prms="">
+                   data-repo="report1" data-prms="">
                     <img src="https://positivepsychologyprogram.com/wp-content/uploads/2014/10/download-as-pdf.png" 
                          name="pdf" width="140" height="140" class="img-circle"></a>
-                <h3>Mostrar el Reporte</h3>
+                                <h3>Reporte visitas de unidad organizativa</h3>
             </center>
         </div>
         <div class="span3 well">
@@ -45,7 +45,7 @@
                    data-repo="testRepoParametros" data-prms="filtro=o A">
                     <img src="https://positivepsychologyprogram.com/wp-content/uploads/2014/10/download-as-pdf.png" 
                          name="pdf" width="140" height="140" class="img-circle"></a>
-                <h3>Mostrar el Reporte con Parámetros</h3>
+               <h3>Reporte fecha, hora, lugar de unidad organizativa visitada</h3>
             </center>
         </div>
                    <div class="span3 well">
@@ -54,7 +54,7 @@
                    data-repo="testRepo" data-prms="">
                     <img src="https://positivepsychologyprogram.com/wp-content/uploads/2014/10/download-as-pdf.png" 
                          name="pdf" width="140" height="140" class="img-circle"></a>
-                <h3>Mostrar el Reporte</h3>
+                <h3>Visitas de unidad organizativa en cierto rango de fechas</h3>
             </center>
         </div>
                    
