@@ -48,6 +48,16 @@
                 <h3>Mostrar el Reporte con Parámetros</h3>
             </center>
         </div>
+                   <div class="span3 well">
+            <center>
+                <a href="#" id="testBton" data-ctxt="${pageContext.request.contextPath}"
+                   data-repo="testRepo" data-prms="">
+                    <img src="https://positivepsychologyprogram.com/wp-content/uploads/2014/10/download-as-pdf.png" 
+                         name="pdf" width="140" height="140" class="img-circle"></a>
+                <h3>Mostrar el Reporte</h3>
+            </center>
+        </div>
+                   
         <!-- Modal -->
         <div class="modal fade" id="ModaRepo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
