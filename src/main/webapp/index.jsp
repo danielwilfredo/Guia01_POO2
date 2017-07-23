@@ -34,7 +34,7 @@
             <center>
                 <a href="#" id="testBton" data-ctxt="${pageContext.request.contextPath}"
                    data-repo="report1" data-prms="">
-                    <img src="https://positivepsychologyprogram.com/wp-content/uploads/2014/10/download-as-pdf.png" 
+                    <img src="http://gexiq.net/Imagenes/reportes.png" 
                          name="pdf" width="140" height="140" class="img-circle"></a>
                                 <h3>Reporte visitas de unidad organizativa</h3>
             </center>
@@ -42,32 +42,33 @@
         <div class="span3 well">
             <center>
                 <a href="#" id="testBtonParams" data-ctxt="${pageContext.request.contextPath}"
-                   data-repo="testRepoParametros" data-prms="filtro=o A">
-                    <img src="https://positivepsychologyprogram.com/wp-content/uploads/2014/10/download-as-pdf.png" 
+                   data-repo="report2" data-prms="">
+                    <img src="http://gexiq.net/Imagenes/reportes.png" 
                          name="pdf" width="140" height="140" class="img-circle"></a>
                <h3>Reporte fecha, hora, lugar de unidad organizativa visitada</h3>
             </center>
         </div>
-                   <div class="span3 well">
+        <div class="span3 well">
             <center>
                 <a href="#" id="testBton" data-ctxt="${pageContext.request.contextPath}"
-                   data-repo="testRepo" data-prms="">
-                    <img src="https://positivepsychologyprogram.com/wp-content/uploads/2014/10/download-as-pdf.png" 
+                   data-repo="report3" data-prms="">
+                    <img src="http://gexiq.net/Imagenes/reportes.png" 
                          name="pdf" width="140" height="140" class="img-circle"></a>
-                <h3>Visitas de unidad organizativa en cierto rango de fechas</h3>
+                                <h3>Visitas de unidad organizativa en cierto rango de fechas</h3>
             </center>
         </div>
-                   
+                             
         <!-- Modal -->
         <div class="modal fade" id="ModaRepo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                        <h4 class="modal-title" id="myModalLabel">Acá se muestra el reporte</h4>
+                        <h4 class="modal-title" id="myModalLabel">Reportes Guia 1 POO2</h4>
                         </div>
                     <div class="modal-body">
                         <div id="pdf"></div>
+                        
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Salir</button>
