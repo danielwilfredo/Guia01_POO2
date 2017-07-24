@@ -30,4 +30,5 @@ function initObjeRepo()
 {
     $("#testBton").fnOpenModaRepo();
     $("#testBtonParams").fnOpenModaRepo();
+    $("#testBton2").fnOpenModaRepo();
 }

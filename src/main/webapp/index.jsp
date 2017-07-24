@@ -30,34 +30,41 @@
         </style>
     </head>
     <body>
+        <nav class="navbar navbar-default sidebar" role="navigation">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>      
+    </div>
+    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+       
+        <li class="dropdown">
+          <a href="#<li class="dropdown">
+           <li class="active"><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+  
+        </li>
+       <li ><a href="reporte1.jsp">Reporte 1<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a></li>        
+        <li ><a href="reporte 2.jsp">Reporte 2<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a></li>        
+        <li ><a href="reporte3.jsp">Reporte 3<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a></li>        
+      </ul>
+    </div>
+  </div>
+</nav>
         <div class="span3 well">
             <center>
                 <a href="#" id="testBton" data-ctxt="${pageContext.request.contextPath}"
-                   data-repo="report1" data-prms="">
-                    <img src="http://gexiq.net/Imagenes/reportes.png" 
+                   data-repo="" data-prms="">
+                    <img src="ER.png" 
                          name="pdf" width="140" height="140" class="img-circle"></a>
                                 <h3>Reporte visitas de unidad organizativa</h3>
             </center>
         </div>
-        <div class="span3 well">
-            <center>
-                <a href="#" id="testBtonParams" data-ctxt="${pageContext.request.contextPath}"
-                   data-repo="report2" data-prms="">
-                    <img src="http://gexiq.net/Imagenes/reportes.png" 
-                         name="pdf" width="140" height="140" class="img-circle"></a>
-               <h3>Reporte fecha, hora, lugar de unidad organizativa visitada</h3>
-            </center>
-        </div>
-        <div class="span3 well">
-            <center>
-                <a href="#" id="testBton" data-ctxt="${pageContext.request.contextPath}"
-                   data-repo="report3" data-prms="">
-                    <img src="http://gexiq.net/Imagenes/reportes.png" 
-                         name="pdf" width="140" height="140" class="img-circle"></a>
-                                <h3>Visitas de unidad organizativa en cierto rango de fechas</h3>
-            </center>
-        </div>
-                             
+                                     
         <!-- Modal -->
         <div class="modal fade" id="ModaRepo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
