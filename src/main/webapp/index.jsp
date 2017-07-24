@@ -45,7 +45,7 @@
        
         <li class="dropdown">
           <a href="#<li class="dropdown">
-           <li class="active"><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+          <li class="active"><a href="index.jsp">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
   
         </li>
        <li ><a href="reporte1.jsp">Reporte 1<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a></li>        
@@ -57,11 +57,11 @@
 </nav>
         <div class="span3 well">
             <center>
-                <a href="#" id="testBton" data-ctxt="${pageContext.request.contextPath}"
+                <a href="#" id="dd" data-ctxt="${pageContext.request.contextPath}"
                    data-repo="" data-prms="">
                     <img src="ER.png" 
-                         name="pdf" width="140" height="140" class="img-circle"></a>
-                                <h3>Reporte visitas de unidad organizativa</h3>
+                         name="pdf" width="1000" height="1000"></a>
+                                <h3>Diagrama Entidad Relacion</h3>
             </center>
         </div>
                                      

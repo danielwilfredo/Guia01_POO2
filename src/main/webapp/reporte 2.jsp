@@ -45,7 +45,7 @@
        
         <li class="dropdown">
           <a href="#<li class="dropdown">
-           <li class="active"><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+          <li class="active"><a href="index.jsp">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
   
         </li>
          <li ><a href="reporte1.jsp">Reporte 1<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a></li>        
